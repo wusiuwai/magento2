@@ -77,6 +77,9 @@
 ## disable user agent verification to not break multiple image upload
 
     php_flag suhosin.session.cryptua off
+
+## https://magento.stackexchange.com/questions/40256/magento2-install-error-iteration
+    php_value xdebug.max_nesting_level 500
 </IfModule>
 <IfModule mod_security.c>
 ###########################################
